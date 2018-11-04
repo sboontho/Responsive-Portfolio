@@ -1,0 +1,38 @@
+
+h1 {
+        position: static;
+        background-color:red;
+        padding: 20px;
+        border: 20px;
+        margin: 30;
+        text-align: center;
+    }
+    
+
+img {
+    float:right;
+}
+p {
+    float:left;
+    margin:15px;
+    padding:10px;
+}
+ html, body {
+    width: 90%;
+    height: 100%;
+    margin: 10;
+    padding: 0;
+    background-color: lightgray;
+}
+.container {
+    width: 900;
+    height: 980;
+    margin: 10;
+    padding: 10;
+}
+@media only screen and (max-width: 640px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
